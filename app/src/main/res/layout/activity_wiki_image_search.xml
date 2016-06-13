@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_bar_item_background"
+        android:visibility="visible" >
+
+        <com.example.ashishrmehta.searchapp.CustomSearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/general_search"
+            android:inputType="textFilter" />
+
+    </RelativeLayout>
+    <com.example.ashishrmehta.searchapp.GroupMemberGridView
+        android:id="@+id/image_list_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fadingEdgeLength="1dip"
+        android:fastScrollEnabled="false"
+        android:horizontalSpacing="3dp"
+        android:listSelector="@drawable/transparent_selector"
+        android:numColumns="3"
+        android:overScrollFooter="@color/common_background_color"
+        android:padding="6dp"
+        android:verticalSpacing="3dp" >
+    </com.example.ashishrmehta.searchapp.GroupMemberGridView>
+
+    <TextView
+        android:id="@+id/txtEmptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=""
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</LinearLayout>

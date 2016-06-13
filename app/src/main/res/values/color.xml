@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="common_background_color">#ffffff</color>
+  <color name="transparent">#00000000</color>
+  <color name="black">#d0000000</color>
+  <color name="white">#ffffffff</color>
+  <color name="selectable_item_background_pressed_color">#e0a1c5df</color>
+  <color name="selectable_item_background_color">#8acec3</color>
+  <color name="transparent_20">#33000000</color>
+  <color name="green">#229C39</color>
+  <color name="wiki_search_load_more">#00AAEE</color>
+  <color name="search_view_text_color">#040404</color>
+  <color name="search_view_hint_text_color">#BEBEBE</color>
+  <color name="wiki_search_load_more_pressed">#8000AAEE</color>
+
+</resources>
